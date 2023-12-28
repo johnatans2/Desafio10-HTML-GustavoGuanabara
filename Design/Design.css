@@ -2,11 +2,29 @@
 @charset "UTF-8";
 /* Definindo Variáveis */
 :root{
-    --cor1:blue;
+    --cor1:#c5ebd6;
+    --cor2:#83e1ad;
+    --cor3:#3ddc84;
+    --cor4:#2fa866;
+    --cor5:#063d1e;
+    --fonte-padrao:Arial,Verdana,sans-serif;
+    --fonte-principal:Bebas,cursive;
+    --fonte-materia:Android,sans-serif;
 }
 /* Importando Fontes */
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @font-face{
-    font-family:Android;
+    font-family:Bebas;
+    src:url("../Midias/Fontes/BebasNeue-Regular.ttf");
+}
+@font-face{
+    font-family:Android,Bebas;
     src:url("../Midias/Fontes/idroid.otf");
+}
+/* Resete do Navegador */
+*{
+    margin:0px;
+    padding:0px;
+    border:0px;
+    box-sizing:border-box;
+    font-family:var(--fonte-padrao);
 }
