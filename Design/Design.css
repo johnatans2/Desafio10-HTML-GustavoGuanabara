@@ -17,7 +17,7 @@
     src:url("../Midias/Fontes/BebasNeue-Regular.ttf");
 }
 @font-face{
-    font-family:Android,Bebas;
+    font-family:Android;
     src:url("../Midias/Fontes/idroid.otf");
 }
 /* Resete do Navegador */
@@ -60,4 +60,51 @@ body{
     color:white;
     text-decoration:none;
 }
-/* Trabalhando Com o Main */
+/* Trabalhando Com o Main Principal */
+.main{
+    width:70%;
+    margin:auto;
+    background-color:white;
+    padding:2%;
+    box-shadow:10px 10px 10px 0px rgba(0, 0, 0, 0.4);
+}
+/* Estilizando os Textos */
+.titulo{
+    font-family:var(--fonte-materia);
+    color:var(--cor5);
+    margin:2% 0%;
+}
+.subtitulo{
+    background:linear-gradient(to right,var(--cor2),white);
+}
+strong{
+    color:var(--cor4);
+}
+.link{
+    text-decoration:none;
+    color:var(--cor5);
+    font-weight:bolder;
+}
+.main p{
+    text-indent:5%;
+    font-size:1.2em;
+}
+/* Estilizando as Imagens */
+.main img{
+    max-width:800px;
+    display:block;
+    margin:2% auto;
+}
+/* Estilizando o Iframe */
+.iframe{
+    width:100%;
+    padding:2%;
+    background-color:var(--cor5);
+    margin:2% 0%;
+}
+.iframe iframe{
+    width:80%;
+    height:400px;
+    display:block;
+    margin:auto;
+}
