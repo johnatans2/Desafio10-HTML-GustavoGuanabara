@@ -28,3 +28,36 @@
     box-sizing:border-box;
     font-family:var(--fonte-padrao);
 }
+/* Configurando o Body */
+body{
+    width:100%;
+    background-color:var(--cor2);
+}
+/* Configurando o Header Principal */
+.header{
+    width:100%;
+    height:100%;
+    padding:2.5%;
+    background:linear-gradient(var(--cor3),var(--cor5));
+    color:white;
+    text-align:center
+}
+.header h1{
+    font-family:var(--fonte-principal);
+    font-size:2.8em;
+    margin-bottom:2%;
+}
+/* Configurando a Navegação Principal */
+.navegacao{
+    width:100%;
+    background-color:var(--cor5);
+}
+.navegacao li{
+    padding:1%;
+    display:inline-block;
+}
+.navegacao a{
+    color:white;
+    text-decoration:none;
+}
+/* Trabalhando Com o Main */
