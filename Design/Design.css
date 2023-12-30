@@ -46,27 +46,42 @@ body{
     font-family:var(--fonte-principal);
     font-size:2.8em;
     margin-bottom:2%;
+    text-shadow:5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+.header p{
+    text-shadow:5px 5px 5px rgba(0,0,0,0.4);
 }
 /* Configurando a Navegação Principal */
 .navegacao{
     width:100%;
+    padding:10px;
     background-color:var(--cor5);
 }
 .navegacao li{
-    padding:1%;
     display:inline-block;
 }
 .navegacao a{
     color:white;
     text-decoration:none;
+    padding:10px;
+    transition:0.3s;
+}
+.navegacao a:hover{
+    background-color:var(--cor3);
+    color:var(--cor5);
 }
 /* Trabalhando Com o Main Principal */
 .main{
     width:70%;
     margin:auto;
+    padding:0.2% 0% 2% 0%;
+    border-radius:0px 0px 20px 20px;
     background-color:white;
-    padding:2%;
-    box-shadow:10px 10px 10px 0px rgba(0, 0, 0, 0.4);
+    box-shadow:0px 10px 20px 0px rgba(0, 0, 0, 0.4);
+}
+/* Configurando o Espaçamento das Sections */
+.section{
+    padding:0% 2%;
 }
 /* Estilizando os Textos */
 .titulo{
@@ -95,6 +110,9 @@ strong{
     display:block;
     margin:2% auto;
 }
+.img{
+    width:100%;
+}
 /* Estilizando o Iframe */
 .iframe{
     width:100%;
@@ -107,4 +125,47 @@ strong{
     height:400px;
     display:block;
     margin:auto;
+}
+/* Estilizando o Aside do Article */
+.aside{
+    width:90%;
+    margin:3% auto;
+    box-shadow:5px 10px 10px 0px rgba(0, 0, 0, 0.4);
+    border-radius:20px 20px 20px 20px;
+
+}
+.aside h4{
+    background-color:var(--cor3);
+    font-size:1.2em;
+    padding:2% 1%;
+    border-radius:15px 15px 0px 0px;
+}
+.parte2aside{
+    background-color:var(--cor1);
+    padding:2%;
+    border-radius:0px 0px 15px 15px;
+}
+.aside ul{
+    list-style-position:inside;
+    margin:2% 0%;
+}
+.aside p{
+    margin-bottom:2%;
+}
+/* Estilizando o Footer do Article */
+.main footer{
+    padding:2%;
+}
+/* Estilizando o Footer Principal */
+.footer{
+    width:100%;
+    padding:2%;
+    background-color:var(--cor5);
+    color:white;
+    font-size:1.15em;
+    text-align:center;
+    margin-top:2%;
+}
+.footer a{
+    color:var(--cor4);
 }
