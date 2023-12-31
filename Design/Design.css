@@ -91,6 +91,7 @@ body{
 }
 .subtitulo{
     background:linear-gradient(to right,var(--cor2),white);
+    padding-left:1%;
 }
 strong{
     color:var(--cor4);
@@ -99,6 +100,9 @@ strong{
     text-decoration:none;
     color:var(--cor5);
     font-weight:bolder;
+}
+.link::after{
+    content:"\00A0\1F517";
 }
 .main p{
     text-indent:5%;
@@ -146,8 +150,13 @@ strong{
     border-radius:0px 0px 15px 15px;
 }
 .aside ul{
+    list-style-type:"\2714\00A0\00A0";
     list-style-position:inside;
+    columns:2;
     margin:2% 0%;
+    font-size:1.2em;
+    color:var(--cor5);
+    margin-left:14%;
 }
 .aside p{
     margin-bottom:2%;
